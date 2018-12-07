@@ -1,25 +1,15 @@
-# ReduxSimpleStarter
+# City Weather Data React
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
+To run the application, make sure to create file src/api_key.js and export the API key like so:
 
-### Getting Started
-
-There are two methods for getting started with this repo.
-
-#### Familiar with Git?
-Checkout this repo, install dependencies, then start the gulp process with the following:
-
-```
-> git clone https://github.com/StephenGrider/ReduxSimpleStarter.git
-> cd ReduxSimpleStarter
-> npm install
-> npm start
+```js
+const API_KEY = 'YOUR_API_KEY';
+export default API_KEY;
 ```
 
-#### Not Familiar with Git?
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
+## Running the application
 
-```
+```js
 > npm install
 > npm start
 ```
